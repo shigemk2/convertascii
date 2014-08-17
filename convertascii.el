@@ -1,4 +1,7 @@
 (defun convertascii (parameter)
   (interactive "sconvert ascii to strings:")
-  (message "%s" parameter)
+  (cond
+   ((string= parameter "33") (setq str "!"))
+   (t (setq str "UNKNOWN")))
+  (message "%s" str)
   )
