@@ -1,3 +1,11 @@
+;; Description: convert ascii code to strings
+;; Author: shigemk2 <i.am.shige_at_gmail.com>
+;; Maintainer: shigemk2
+;; Copyright (C) 2014 shigemk2 all rights reserved.
+;; Created: :2014-08-17
+;; Version: 0.0.1
+;; Keywords: convert ascii
+;; URL: https://github.com/shigemk2/convertascii
 (defun convertascii (parameter)
   (interactive "sconvert ascii to strings:")
   (cond
