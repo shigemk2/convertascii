@@ -1,4 +1,7 @@
 convertascii
 ============
 
-Emacs LIsp to convert ascii code to strings
+Emacs Lisp to convert ascii code to strings
+
+31 to !
+72 to H
