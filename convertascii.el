@@ -139,5 +139,10 @@
 
 (defun convertascii2string (parameter)
   (interactive "sconvert ascii to strings:")
-  (message "%s" (car (cdr (nth (string-to-number parameter) ascii))))
+  (message "%s" (car (cdr (assq (string-to-number parameter) ascii))))
+  )
+
+(defun convertstring2ascii (parameter)
+  (interactive "sconvert ascii to strings:")
+  (message "%s" (car (car (rassq parameter ascii))))
   )
