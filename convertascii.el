@@ -6,6 +6,8 @@
 ;; Version: 0.0.1
 ;; Keywords: convert ascii
 ;; URL: https://github.com/shigemk2/convertascii
+;; usage                                                      
+;; (convertascii2string "72")              ; => "H"
 (setq ascii '(
               (0."NUL")
               (1."SOH")
