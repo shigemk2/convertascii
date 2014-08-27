@@ -151,3 +151,5 @@
   (interactive "sconvert ascii to strings:")
   (message "%s" (car (rassoc parameter ascii)))
   )
+
+(provide 'convertascii)
