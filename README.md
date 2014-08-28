@@ -4,13 +4,13 @@ convertascii
 Emacs Lisp to convert ascii code to strings
 
 ## Usage
-### M-x convertascii2string
+### M-x convertascii--string
 
 31 to !
 
 72 to H
 
-### M-x convertstring2ascii
+### M-x convertstring--ascii
 
 ! to 32
 

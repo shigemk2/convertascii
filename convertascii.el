@@ -141,14 +141,14 @@
               ))
 
 ;; They are only used for interactive mode
-(defun convertascii2string (parameter)
+(defun convertascii--string (parameter)
   (interactive "sconvert ascii to strings:")
   (message "%s" (cdr (assoc (string-to-number parameter) ascii)))
   )
 
 ;; They are only used for interactive mode
-(defun convertstring2ascii (parameter)
-  (interactive "sconvert ascii to strings:")
+(defun convertascii--ascii (parameter)
+  (interactive "sconvert strings to ascii:")
   (message "%s" (car (rassoc parameter ascii)))
   )
 
